@@ -237,16 +237,19 @@
           <form method="POST" class="register-form" id="register-form" onsubmit="return validateForm()">
             <h1>Registration</h1>
             <div class="input-box">
-                <input type="text" name="name" id="your_name" placeholder="Nama"/>
+                <input type="text" name="username" id="username" placeholder="Username"/>
               </div>
             <div class="input-box">
-              <input type="text" name="username" id="your_username" placeholder="Username"/>
+              <input type="text" name="email" id="email" placeholder="Email"/>
             </div>
             <div class="input-box">
-              <input type="password" name="password" id="your_pass" placeholder="Password"/>
+              <input type="password" name="password" id="pass" placeholder="Password"/>
+            </div>
+            <div class="input-box">
+              <input type="password" name="re_pass" id="re_pass" placeholder="Repeat your password"/>
             </div>
             <div class="login-form btn-box">
-              <input type="submit" name="signin" id="signin" class="form-submit" value="Sign Up"/>
+              <input type="submit" name="signup" id="signup" class="form-submit" value="Sign Up"/>
             </div>
             <div class="register-link">
                 <p>Sudah memiliki akun? <a href="login.php"> Login</a></p>
